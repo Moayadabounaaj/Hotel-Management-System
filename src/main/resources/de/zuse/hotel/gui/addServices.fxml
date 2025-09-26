@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="addServiceRoot" prefHeight="308.0" prefWidth="290.0" styleClass="bg" stylesheets="@styling/darkMode/BookingWindow.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.AddServicesWindowController">
+    <children>
+        <Text fill="WHITE" layoutX="31.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Add Service">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField fx:id="serviceTextField" layoutX="31.0" layoutY="103.0" prefHeight="32.0" prefWidth="167.0" promptText="Service Name" styleClass="nameFill" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="30.0" />
+        <Button fx:id="addServiceBtnID" layoutX="31.0" layoutY="254.0" mnemonicParsing="false" onAction="#addService" prefHeight="28.0" prefWidth="167.0" styleClass="book" stylesheets="@styling/darkMode/BookingWindow.css" text="Add" textFill="WHITE" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="30.0" />
+      <TextField fx:id="priceTextField1" layoutX="30.0" layoutY="186.0" prefHeight="32.0" prefWidth="229.0" promptText="Service Price" styleClass="nameFill" />
+      <Text fill="WHITE" layoutX="31.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Service Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="31.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Service Price ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

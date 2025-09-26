@@ -1,0 +1,22 @@
+
+.combo-box {
+    -fx-background-color: #191717;
+    -fx-text-fill: #FFFFFF ;
+    -fx-mark-color: #F24E1E; /* arrow color */
+    -fx-font-family: Gilroy;
+    -fx-fill: white ;
+    -fx-prompt-text-fill: white;
+}
+
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #F24E1E;
+}
+
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color: #131212; /* after dropdown the color will be black */
+    -fx-text-fill: #FFFFFF;
+}
+
+

@@ -1,0 +1,86 @@
+@font-face {
+    -fx-font-family: myFont;
+    src:url(../../font/Gilroy.ttf);
+}
+
+.label{
+    -fx-font-family: Gilroy;
+    -fx-text-fill: #2c2c2c;
+}
+
+.dashboard_label{
+    -fx-font-family: Gilroy;
+    -fx-text-fill: #ffffff;
+}
+
+.labelPoint{
+    -fx-font-family: Gilroy;
+    -fx-fill: #f24e1e;
+}
+
+.main_menu {
+    -fx-background-color: #191717;
+    -fx-alignment: center;
+}
+
+.left_container {
+    -fx-background-color: #191717;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(two-pass-box, #191717, 5, 0, 0, 4);
+}
+
+.title_container {
+    -fx-background-color: #191717;
+    -fx-background-radius: 20, 20, 0, 0;
+}
+
+.title_container Text {
+    -fx-fill: #FFFFFF;
+    -fx-background-radius: 20, 20, 0, 0;
+    -fx-font-family: Gilroy;
+}
+
+.menu_container_not_selected {
+    -fx-padding: 10 10 10 20;
+    -fx-spacing: 20;
+}
+
+.menu_container Button {
+    -fx-pref-width: 234;
+    -fx-pref-height: 40;
+    -fx-background-color: #191717;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.4em;
+    -fx-font-weight: Bold;
+    -fx-alignment: center_left;
+    -fx-background-radius: 0;
+    -fx-font-family: Gilroy;
+}
+
+.menu_container Button:hover {
+    -fx-cursor: hand;
+    -fx-spacing: 20;
+    -fx-text-fill: #f24e1e;
+}
+
+.on_button_selected {
+    -fx-padding: 10 10 10 20;
+    -fx-spacing: 20;
+    -fx-pref-width: 300;
+    -fx-pref-height: 40;
+    -fx-background-color: #f24e1e;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.4em;
+    -fx-font-weight: Bold;
+    -fx-alignment: center_left;
+}
+
+.alt_menu_btn {
+    -fx-pref-width: 115;
+    -fx-pref-height: 40;
+    -fx-background-color: #FFFFFF;
+    -fx-fill: #000000;
+    -fx-font-size: 1.4em;
+    -fx-alignment: center_left;
+    -fx-font-family: Gilroy;
+}

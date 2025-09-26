@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import org.controlsfx.control.*?>
+
+
+<AnchorPane fx:id="root" prefHeight="721.0" prefWidth="500.0" styleClass="bg" stylesheets="@styling/darkMode/BookingWindow.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.BookingWindowController">
+
+    <children>
+        <Label layoutX="61.0" layoutY="68.0" text="New Booking" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="guestOrEmailID" layoutX="61.0" layoutY="151.0" prefHeight="35.0" prefWidth="381.0" promptText="Guest Id or Email" styleClass="nameFill" />
+        <DatePicker fx:id="arrivalDate" layoutX="55.0" layoutY="253.0" prefHeight="45.0" prefWidth="174.0" styleClass="date" stylesheets="@styling/darkMode/datePickerStyle.css" />
+        <DatePicker fx:id="depatureDate" layoutX="268.0" layoutY="253.0" prefHeight="45.0" prefWidth="174.0" stylesheets="@styling/darkMode/datePickerStyle.css" />
+        <Label layoutX="55.0" layoutY="219.0" text="Arrival" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="268.0" layoutY="219.0" text="Depature" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <ChoiceBox fx:id="floorChoiceBox" layoutX="55.0" layoutY="352.0" prefHeight="30.0" prefWidth="174.0" />
+        <Label layoutX="55.0" layoutY="320.0" text="Floor" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <ChoiceBox fx:id="roomChoiceBox" layoutX="268.0" layoutY="352.0" prefHeight="30.0" prefWidth="174.0" />
+        <Label layoutX="266.0" layoutY="320.0" text="Room" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="401.0" prefHeight="25.0" prefWidth="66.0" text="Payment" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="268.0" layoutY="404.0" text="Guests" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="book" layoutX="136.0" layoutY="598.0" mnemonicParsing="false" onAction="#addBooking" prefHeight="35.0" prefWidth="229.0" styleClass="book" stylesheets="@styling/darkMode/BookingWindow.css" text="add booking" textFill="WHITE">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <Button fx:id="closeBtnId" layoutX="175.0" layoutY="643.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="35.0" prefWidth="229.0" styleClass="cancel" text="cancel">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <TextField fx:id="priceField" layoutX="268.0" layoutY="517.0" prefHeight="35.0" prefWidth="174.0" promptText="price" styleClass="nameFill" />
+        <ChoiceBox fx:id="paymentChoiceBox" layoutX="55.0" layoutY="435.0" prefHeight="30.0" prefWidth="174.0" styleClass="bg" />
+        <TextField fx:id="guestsNumber" layoutX="268.0" layoutY="435.0" prefHeight="30.0" prefWidth="174.0" promptText="number" styleClass="nameFill" />
+
+    <CheckComboBox fx:id="extraServices" layoutX="55.0" layoutY="520.0" prefHeight="30.0" prefWidth="174.0" styleClass="combo-box" stylesheets="@styling/darkMode/comboCheckbox.css" />
+      <Label layoutX="55.0" layoutY="489.0" prefHeight="25.0" prefWidth="122.0" text="Extra-Service" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="492.0" text="Price" textFill="WHITE">
+
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

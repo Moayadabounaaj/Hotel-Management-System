@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="bookingContainer" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="64.0" prefWidth="790.0" stylesheets="@styling/darkMode/background.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.BookingContainerController">
+   <children>
+      <Label fx:id="guestName" layoutX="66.0" layoutY="26.0" styleClass="textOnBookingContainer" stylesheets="@styling/darkMode/Tableview.css" text="guestName">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="arrivalDate" layoutX="260.0" layoutY="26.0" prefHeight="15.0" prefWidth="75.0" styleClass="textOnBookingContainer" stylesheets="@styling/darkMode/Tableview.css" text="arrivalDate">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="roomAndFloor" layoutX="679.0" layoutY="25.0" styleClass="textOnBookingContainer" stylesheets="@styling/darkMode/Tableview.css" text="1-1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+      <Label layoutX="17.0" layoutY="24.0" styleClass="dashboard_label" text="Name:" textFill="WHITE" />
+      <Label layoutX="174.0" layoutY="25.0" styleClass="dashboard_label" text="Arrival Date:" textFill="WHITE" />
+      <Label layoutX="369.0" layoutY="23.0" styleClass="dashboard_label" text="Departure Date:" textFill="WHITE" />
+      <Label layoutX="596.0" layoutY="24.0" styleClass="dashboard_label" text="Room&amp;Floor:" textFill="WHITE" />
+      <Label fx:id="departureDate" layoutX="473.0" layoutY="25.0" styleClass="textOnBookingContainer" stylesheets="@styling/darkMode/Tableview.css" text="departureDate">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="canceledBooking" layoutX="-11.0" layoutY="11.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="12.0" style="-fx-background-color: #da0000;" />
+   </children>
+   <effect>
+      <DropShadow height="0.0" radius="0.0" width="0.0" />
+   </effect>
+   <cursor>
+      <Cursor fx:constant="OPEN_HAND" />
+   </cursor>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="194.0" maxWidth="464.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="194.0" prefWidth="392.0" styleClass="bg" stylesheets="@styling/darkMode/BookingWindow.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.InfoController">
+    <children>
+        <Button fx:id="okBtn" layoutX="98.0" layoutY="120.0" mnemonicParsing="false" onAction="#cancel" prefHeight="28.0" prefWidth="198.0" styleClass="book" text="OK" textFill="WHITE" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="96.0">
+            <font>
+                <Font size="5.0" />
+            </font>
+        </Button>
+        <Text fx:id="displayText" fill="WHITE" layoutX="50.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" textAlignment="CENTER" wrappingWidth="293.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Button fx:id="yesBtn" layoutX="97.0" layoutY="120.0" mnemonicParsing="false" onAction="#onYesBtnClicked" prefHeight="27.0" prefWidth="86.0" styleClass="book" text="Yes" textFill="WHITE">
+            <font>
+                <Font size="5.0" />
+            </font>
+        </Button>
+        <Button fx:id="noBtn" layoutX="209.0" layoutY="120.0" mnemonicParsing="false" onAction="#onNoBtnClicked" prefHeight="27.0" prefWidth="86.0" styleClass="book" text="No" textFill="WHITE">
+            <font>
+                <Font size="5.0" />
+            </font>
+        </Button>
+    </children>
+    <effect>
+        <Glow level="0.13" />
+    </effect>
+</AnchorPane>

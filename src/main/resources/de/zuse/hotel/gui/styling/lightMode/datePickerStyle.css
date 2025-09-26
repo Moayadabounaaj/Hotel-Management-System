@@ -1,0 +1,101 @@
+@font-face {
+    -fx-font-family: myFont;
+    src:url(../../font/Gilroy.ttf);
+}
+
+.label{
+    -fx-font-family: Gilroy;
+}
+
+.date-picker {
+    -fx-background-color: #E9EBFF;
+    -fx-text-fill: black;
+    -fx-font-size: 1.2em;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #0077FF;
+    -fx-background-radius: 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #0077FF;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+}
+
+.date-picker .cell {
+    -fx-background-color: #F3F4FF;
+    -fx-text-fill: black;
+    -fx-font-family: Gilroy;
+}
+
+.date-picker .cell:hover {
+    -fx-background-color: rgba(40, 121, 239, 0.33);
+}
+
+.date-picker .cell:focused {
+    -fx-background-color: #0077FF;
+}
+
+.date-picker .selected {
+    -fx-background-color: #F3F4FF;
+    -fx-text-fill: black;
+}
+
+.date-picker .selected:focused {
+    -fx-background-color: #F3F4FF;
+    -fx-text-fill: black;
+}
+
+.date-picker-popup {
+    -fx-border-color: #F3F4FF;
+}
+
+.date-picker-popup .month-year-pane {
+    -fx-background-color: #F3F4FF;
+}
+
+.date-picker-popup .month-year-pane .label {
+    -fx-text-fill: black;
+}
+
+.date-picker-popup .week-number-cell {
+    -fx-text-fill: black;
+}
+
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+    -fx-background-color: #0077FF;
+}
+
+.date-picker .text-field {
+    -fx-background-color: #E9EBFF;
+    -fx-text-fill: black;
+    -fx-font-family: Gilroy;
+}
+
+.date-picker .day-name-cell {
+    -fx-background-color: #F3F4FF;
+    -fx-text-fill: black;
+}
+
+.date-picker .content > .month-year-pane {
+    -fx-padding: 0;
+}
+
+.date-picker .content > .month-year-pane > .border-pane > .center {
+    -fx-border-width: 0;
+}
+
+.date-picker .week-number-cell {
+    -fx-background-color: #E9EBFF;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-text-fill: transparent;
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+}

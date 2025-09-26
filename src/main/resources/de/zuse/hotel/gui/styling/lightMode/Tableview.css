@@ -1,0 +1,117 @@
+@font-face {
+    -fx-font-family: myFont;
+    src:url(../../font/Gilroy.ttf);
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.text{
+    -fx-font-size: 1.1em;
+    -fx-font-family: Gilroy;
+    -fx-text-fill: #333;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #0077FF;
+    -fx-background-radius: 0px 2px 0px 0px;
+
+}
+
+.table-view .column-header {
+    -fx-background-color: #0077FF;
+    -fx-text-fill: #333;
+}
+
+.table-view .table-cell{
+    -fx-border-color: #ced3ff;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #ced3ff;
+    -fx-text-background-color: #0077FF;
+}
+.table-row-cell:odd{
+    -fx-background-color: #E9EBFF;
+    -fx-background-insets: 0, 0 0 0;
+    -fx-text-background-color: #333;
+}
+.table-row-cell:even{
+    -fx-background-color: #dde0ff;
+    -fx-background-insets: 0, 0 0 0;
+    -fx-text-background-color: #333;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 2;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  #0077FF;
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  #0077FF;
+}
+
+.table-row-cell {
+    -fx-background-color: #ced3ff;
+    -fx-background-radius:0;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #ced3ff;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #ced3ff;
+    -fx-text-fill: #ffffff;
+}
+
+.list-cell:even {
+    -fx-background-color: #dde0ff;
+}
+
+.list-cell:odd {
+    -fx-background-color: #E9EBFF;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  #0077FF;
+}
+
+.list-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  #0077FF;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .track{
+    -fx-background-color: #E9EBFF;
+}
+.list-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color: #E9EBFF;
+}
+
+.list-view:empty{
+    -fx-background-color: #F3F4FF;
+}
+
+.table-view:empty {
+    -fx-background-color: #F3F4FF;
+}
+
+.textOnBookingContainer{
+    -fx-text-fill: #0077FF;
+    -fx-fill: #0077FF;
+    -fx-font-family: Gilroy;
+}

@@ -1,0 +1,71 @@
+/* target specific item by its id */
+
+@font-face {
+    -fx-font-family: myFont;
+    src:url(../../font/Gilroy.ttf);
+}
+
+
+
+.root{
+    -fx-background-color: #F3F4FF;
+}
+
+.navbar{
+    -fx-background-color: #F3F4FF;
+    -fx-alignment: center;
+}
+
+.FunctionButton{
+    -fx-font-family: Gilroy;
+    -fx-background-color: #0077FF;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.2em ;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(two-pass-box, #ffffff,9,0,0,4);
+
+}
+
+.FunctionButton:hover {
+    -fx-cursor: hand;
+}
+
+
+.text-area{
+    -fx-text-fill: "White";
+    -fx-font-family: Gilroy;
+}
+
+.texts{
+    -fx-text-fill: "White";
+    -fx-font-family: Gilroy;
+}
+
+
+
+.roundBottun{
+    -fx-background-radius: 150;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: #0077FF;
+
+}
+
+.roundBottun:hover{
+    -fx-cursor: hand;
+    -fx-spacing: 20;
+}
+
+#grandHotel{
+    -fx-text-fill: #0077FF;
+    -fx-font-family: Gilroy;
+}
+
+.deleteButtonBooking{
+    -fx-background-color: #F3F4FF;
+    -fx-text-fill: #0077FF;
+    -fx-font-size: 1.5em;
+    -fx-cursor: hand;
+    -fx-font-family: Gilroy;
+    -fx-effect: dropshadow(two-pass-box, #F3F4FF,9,0,0,4);
+}

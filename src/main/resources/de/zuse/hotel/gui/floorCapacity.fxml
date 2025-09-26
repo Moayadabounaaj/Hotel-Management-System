@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="floorCapacityRoot" prefHeight="164.0" prefWidth="287.0" styleClass="bg" stylesheets="@styling/darkMode/BookingWindow.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.FloorCapacityController">
+   <children>
+      <Text fill="WHITE" layoutX="31.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Enter floor capacity ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="capacityTextField" layoutX="31.0" layoutY="59.0" prefHeight="32.0" prefWidth="167.0" promptText="capacity" styleClass="nameFill" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="30.0" />
+      <Button fx:id="addFloorCapacityBtnID" layoutX="32.0" layoutY="108.0" mnemonicParsing="false" onAction="#addCapacity" prefHeight="28.0" prefWidth="167.0" styleClass="book" stylesheets="@styling/darkMode/BookingWindow.css" text="Add" textFill="WHITE" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="29.0" />
+   </children>
+</AnchorPane>

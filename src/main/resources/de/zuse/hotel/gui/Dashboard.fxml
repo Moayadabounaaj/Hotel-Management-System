@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="dashboardRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.DashboardController">
+    <children>
+        <Text fill="WHITE" layoutX="86.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Dashboard" wrappingWidth="134.99610137939453">
+            <font>
+                <Font name="System Bold Italic" size="25.0" />
+            </font>
+        </Text>
+
+      <ListView fx:id="listView" layoutX="86.0" layoutY="155.0" prefHeight="482.0" prefWidth="793.0" style="-fx-background-color: #191717;" stylesheets="@styling/darkMode/Tableview.css" AnchorPane.leftAnchor="86.0" AnchorPane.rightAnchor="401.0" />
+        <Button fx:id="deleteBookingBtn" layoutX="764.0" layoutY="70.0" mnemonicParsing="false" onAction="#deleteBooking" prefHeight="39.0" prefWidth="126.0" styleClass="deleteButtonBooking" text="Cancel" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <graphic>
+                <ImageView fx:id="deleteBtnImageId" fitHeight="25.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true" styleClass="delete_Image">
+                    <image>
+                        <Image url="@images/deletebtn_darkMode.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="574.0" layoutY="70.0" mnemonicParsing="false" onAction="#onSaveClicked" prefHeight="39.0" prefWidth="174.0" styleClass="deleteButtonBooking" text="save as PDF">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Button>
+        <ChoiceBox fx:id="bFilterChoiseBoxID" layoutX="401.0" layoutY="70.0" prefHeight="39.0" prefWidth="157.0" AnchorPane.leftAnchor="401.0" AnchorPane.rightAnchor="722.0" />
+    </children>
+   <stylesheets>
+      <URL value="@styling/darkMode/background.css" />
+      <URL value="@styling/darkMode/NavMenu.css" />
+   </stylesheets>
+</AnchorPane>

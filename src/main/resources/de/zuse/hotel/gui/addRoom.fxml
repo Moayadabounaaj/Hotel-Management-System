@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Window" prefHeight="409.0" prefWidth="331.0" styleClass="bg" stylesheets="@styling/darkMode/BookingWindow.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zuse.hotel.gui.AddRoomWindowController">
+   <children>
+      <Label layoutX="46.0" layoutY="39.0" text="New Room" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="roomnumber" layoutX="46.0" layoutY="122.0" prefHeight="35.0" prefWidth="242.0" promptText="number" styleClass="nameFill" />
+      <Label layoutX="46.0" layoutY="95.0" styleClass="textLabel" text="Room" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="185.0" prefHeight="25.0" prefWidth="45.0" styleClass="textLabel" text="Floor" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="addroom" layoutX="44.0" layoutY="329.0" mnemonicParsing="false" onAction="#addingRoom" prefHeight="35.0" prefWidth="242.0" styleClass="book" text="add room" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="floorChoiceBox" layoutX="112.0" layoutY="183.0" prefHeight="30.0" prefWidth="174.0" />
+      <Label layoutX="43.0" layoutY="227.0" prefHeight="25.0" prefWidth="45.0" styleClass="textLabel" text="Type" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="roomType" layoutX="110.0" layoutY="225.0" prefHeight="30.0" prefWidth="174.0" />
+      <Label layoutX="45.0" layoutY="275.0" prefHeight="25.0" prefWidth="45.0" styleClass="textLabel" text="Cost" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="roomprice" layoutX="112.0" layoutY="270.0" prefHeight="35.0" prefWidth="174.0" promptText="price per night" styleClass="nameFill" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,89 @@
+@font-face {
+    -fx-font-family: myFont;
+    src:url(../../font/Gilroy.ttf);
+}
+
+.label{
+    -fx-font-family: Gilroy;
+    -fx-text-fill: #000000;
+    -fx-fill: #000000;
+}
+
+.book{
+    -fx-font-size: 1.4em;
+    -fx-font-family: Gilroy;
+    -fx-background-radius: 6;
+    -fx-background-color: #0077FF;
+}
+
+.cancel{
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-background-color: #F3F4FF;
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.4em;
+    -fx-alignment: center;
+    -fx-font-family: Gilroy;
+}
+
+.bg{
+    -fx-background-color: #F3F4FF;
+}
+
+.Window{
+    -fx-background-radius: 20,20,0,0;
+    -fx-effect: dropshadow(two-pass-box, #0a0a0a,20,0,3,0);
+}
+
+.nameFill{
+    -fx-text-fill: #000000;
+    -fx-background-color: #F3F4FF;
+    -fx-prompt-text-fill: #505050;
+    -fx-font-size: 1.2em;
+    -fx-alignment: center_left;
+    -fx-effect: dropshadow(two-pass-box, #d5d8ff,0,0,0,2);
+    -fx-font-family: Gilroy;
+}
+
+.guestsNumber{
+    -fx-text-fill: #000000;
+    -fx-background-color: #F3F4FF;
+    -fx-prompt-text-fill: #413d3d;
+    -fx-font-family: Gilroy;
+}
+
+
+.choice-box > * {
+    -fx-background-color: #e8e9ff;
+    -fx-text-fill: #000000;
+    -fx-mark-color: #0077FF;
+    -fx-effect: dropshadow(two-pass-box, #e8e9ff,0,0,0,2);
+    -fx-font-family: Gilroy;
+}
+
+.check-box .box {
+    -fx-background-color: #0077FF;
+}
+
+.choice-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #0077FF;
+}
+
+.choice-box .arrow {
+    -fx-background-color: #0077FF;
+}
+
+.choice-box .arrow-button {
+    -fx-background-color: white;
+    -fx-size: 5;
+}
+
+.textLabel{
+    -fx-text-fill: #000000;
+    -fx-font-size: 15px;
+    -fx-font-family: "System Bold";
+}
