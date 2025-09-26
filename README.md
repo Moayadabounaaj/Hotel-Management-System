@@ -1,11 +1,13 @@
 # Hotel-Project
+Dies ist ein Hotelmanagement-System, das Hotels dabei hilft, ihre Zimmer, Buchungen und Gäste zu verwalten.
+
 
 ![Screenshot New_booking](Screenshots/New_booking.png)
 
-# Ursprüngliche Entwicklung
+## Ursprüngliche Entwicklung
 Dieses Projekt wurde ursprünglich auf dem HTW GitLab entwickelt.  
 
-# Hotelmanagement-System
+## Hotelmanagement-System
 Dies ist ein Hotelmanagement-System, das Hotels dabei hilft, ihre Zimmer, Buchungen und Gäste zu verwalten.
 
 ## Funktionen
