@@ -1,5 +1,7 @@
 # Hotel-Project
 
+![Screenshot New_booking](Screenshots/New_booking.png)
+
 # Ursprüngliche Entwicklung
 Dieses Projekt wurde ursprünglich auf dem HTW GitLab entwickelt.  
 
@@ -13,6 +15,26 @@ Dies ist ein Hotelmanagement-System, das Hotels dabei hilft, ihre Zimmer, Buchun
 - Zimmerverfügbarkeit prüfen und Buchungen erstellen
 - Gäste einchecken und auschecken
 - Rechnungen generieren 
+
+
+
+## Screenshots
+
+> In diesem Projekt gibt es einen Dunkel- und einen Hellmodus.
+
+
+
+![Screenshot Guests_edit](Screenshots/Guests_edit.png)
+
+
+![Screenshot Rooms](Screenshots/Rooms.png)
+
+
+![Screenshot The_Dashboard](Screenshots/The_Dashboard.png)
+
+
+
+
 
 ## Verwendete Technologien
 Backend: Java (Gui JavaFx)
